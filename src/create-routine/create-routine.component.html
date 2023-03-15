@@ -16,7 +16,7 @@
         </a>
 
 
-        <a class="list-group-item list-group-item-action my-5 rounded active" id="list-routine-list" data-bs-toggle="list" href="#list-routine" role="tab" aria-controls="list-routine">
+        <a class="list-group-item list-group-item-action my-5 rounded active" id="list-routine-list" data-bs-toggle="list" href="#routine" role="tab" aria-controls="list-routine">
           <div class="d-flex align-items-center">
             <div class="flex-shrink-0">
               <img src="../assets/Leading element.png" width="40px" height="40px">
@@ -28,7 +28,7 @@
           </div>
         </a>
 
-        <a class="list-group-item list-group-item-action my-5 rounded" id="list-reminder-list" data-bs-toggle="list" href="#list-reminder" role="tab" aria-controls="list-reminder">
+        <a class="list-group-item list-group-item-action my-5 rounded" id="list-reminder-list" data-bs-toggle="list" href="#reminder" role="tab" aria-controls="list-reminder">
           <div class="d-flex align-items-center">
             <div class="flex-shrink-0">
               <img src="../assets/Leading element(1).png" width="40px" height="40px">
@@ -43,7 +43,7 @@
           </div>
         </a>
 
-        <a class="list-group-item list-group-item-action my-5 rounded" id="list-reminderbuy-list" data-bs-toggle="list" href="#list-reminderbuy" role="tab" aria-controls="list-reminderbuy">
+        <a class="list-group-item list-group-item-action my-5 rounded" id="list-reminderbuy-list" data-bs-toggle="list" href="#reminderbuy" role="tab" aria-controls="list-reminderbuy">
           <div class="d-flex align-items-center">
             <div class="flex-shrink-0">
               <img src="../assets/Leading element(2).png" width="40px" height="40px">
@@ -65,8 +65,29 @@
 
     </div>
 
-    <div class="col-8">
-      <router-outlet name="detail"></router-outlet>
+    <div class="col-8 my-5">
+      <div class="tab-content" id="nav-tabContent">
+
+        <div class="tab-pane fade" id="routine" role="tabpanel" aria-labelledby="detail-routine">
+          <div class="my-5">
+            kksjsksj
+          </div>
+
+      </div>
+
+        <div class="tab-pane fade" id="reminder" role="tabpanel" aria-labelledby="detailreminder">
+          <div class="mt-4">
+            ddddddddddddd
+          </div>
+        </div>
+        <div class="tab-pane fade" id="reminderbuy" role="tabpanel" aria-labelledby="detail-reminderbuy">
+          <div class="mt-4">
+            ssssssssssss
+          </div>
+        </div>
+
+      </div>
+
 
     </div>
 
