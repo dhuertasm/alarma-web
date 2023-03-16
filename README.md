@@ -27,3 +27,8 @@ EL desarrollo de la maquetación web se realizo en el framework angular
 2. Clonar el repositorio
 3. En el directorio raiz ejecutar el comando "npm install"
 4. Levantar el servidor ejecutando "ng serve"
+
+
+# Tecnologia utilizadas
+1. Angular 15.2.2
+2. NodeJs 18.15.0
