@@ -11,7 +11,6 @@ import { LoginComponent } from 'src/login/login.component';
 import { SuccessComponent } from 'src/success/success.component';
 import { SigninComponent } from 'src/signin/signin.component';
 import { HomeComponent } from 'src/home/home.component';
-import { ActivityComponent } from 'src/activity/activity.component';
 import { SuccessrComponent } from 'src/successr/successr.component';
 
 const routes: Routes = [
@@ -27,7 +26,6 @@ const routes: Routes = [
   {path: 'signin', component: SigninComponent},
   {path: 'home', component: HomeComponent},
   {path: 'successr', component: SuccessrComponent},
-  {path: 'activity', component: ActivityComponent},
   {path: '', redirectTo: "/home", pathMatch:"full"}
 
 

@@ -8,7 +8,6 @@ import  { MatButtonModule } from '@angular/material/button';
 import { HomeComponent } from 'src/home/home.component';
 import {MatFormFieldModule} from '@angular/material/form-field';
 import { SigninComponent } from 'src/signin/signin.component';
-import { ActivityComponent } from 'src/activity/activity.component';
 import { CreateRoutineComponent } from 'src/create-routine/create-routine.component';
 import { SuccessrComponent } from 'src/successr/successr.component';
 
@@ -21,7 +20,6 @@ import { SuccessrComponent } from 'src/successr/successr.component';
     AppComponent,
       HomeComponent,
       SigninComponent,
-      ActivityComponent,
       CreateRoutineComponent,
       SuccessrComponent
    ],

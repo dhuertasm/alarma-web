@@ -6,6 +6,10 @@ img {
   top: 5%;
 }
 
+a:link, a:visited, a:active {
+  text-decoration: none;
+}
+
 .button {
   color: white;
   width: 360px;
