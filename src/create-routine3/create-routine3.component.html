@@ -1,3 +1,315 @@
-<p>
-  create-routine3 works!
-</p>
+<div class="container">
+  <div class="row gy-3">
+
+    <div class="col-4 my-5">
+      <div class="list-group mt-4 text-center" id="list-tab" role="tablist">
+
+        <a class="list-group-item my-5">
+          <div class="d-flex align-items-center">
+            <div class="flex-grow-1 ms-3">
+             Activities
+            </div>
+            <div class="flex-shrink-0">
+              <a href="/profileupdate"><img src="../assets/3d_avatar_21.png"> </a>
+            </div>
+          </div>
+        </a>
+
+
+        <a class="list-group-item list-group-item-action my-5 rounded" id="list-routine-list" data-bs-toggle="list" href="#routine" role="tab" aria-controls="list-routine">
+          <div class="d-flex align-items-center">
+            <div class="flex-shrink-0">
+              <img src="../assets/Leading element.png" width="40px" height="40px">
+            </div>
+            <div class="flex-grow-1 ms-3">
+             Training routine <br>
+             <small>An AI will help you to achieve your goals</small>
+            </div>
+          </div>
+        </a>
+
+        <a class="list-group-item list-group-item-action my-5 rounded" id="list-reminder-list" data-bs-toggle="list" href="#reminder" role="tab" aria-controls="list-reminder">
+          <div class="d-flex align-items-center">
+            <div class="flex-shrink-0">
+              <img src="../assets/Leading element(1).png" width="40px" height="40px">
+            </div>
+            <div class="flex-grow-1 ms-3">
+             Animate your GymBro <br>
+             <small>
+               Send a reminder to your Gymbro to <br>
+               keep making progress
+             </small>
+            </div>
+          </div>
+        </a>
+
+        <a class="list-group-item list-group-item-action my-5 rounded" id="list-reminderbuy-list" data-bs-toggle="list" href="#reminderbuy" role="tab" aria-controls="list-reminderbuy">
+          <div class="d-flex align-items-center">
+            <div class="flex-shrink-0">
+              <img src="../assets/Leading element(2).png" width="40px" height="40px">
+            </div>
+            <div class="flex-grow-1 ms-3">
+             Don't forget <br>
+             <small>
+              We help you remember when you <br>
+              should buy sports supplements <br>
+              or accesories
+            </small>
+            </div>
+          </div>
+        </a>
+
+
+      </div>
+
+
+    </div>
+
+    <div class="col-8 gy-5">
+      <div class="tab-content" id="nav-tabContent">
+
+        <div class="tab-pane fade" id="routine" role="tabpanel" aria-labelledby="detail-routine">
+
+          <div class="my-5 col-md-6 offset-md-4 my-1">
+            <div class="input-group mb-3">
+              <input type="text" class="form-control" placeholder="Date" id="input8">
+            </div>
+            <div class="input-group mb-3">
+              <input type="time" class="form-control" placeholder="time" id="input9">
+            </div>
+
+            <hr>
+
+          </div>
+
+          <div class="list-group col-md-6 offset-md-4 my-1">
+            <h1 class="text-center">Routine</h1>
+            <a class="list-group-item">
+              <div class="d-flex align-items-center">
+                <div class="flex-grow-1 ms-3">
+                 Squats
+                </div>
+                <div class="flex-shrink-0">
+                  02:00
+                </div>
+              </div>
+            </a>
+            <a class="list-group-item">
+              <div class="d-flex align-items-center">
+                <div class="flex-grow-1 ms-3">
+                 Push up
+                </div>
+                <div class="flex-shrink-0">
+                  02:20
+                </div>
+              </div>
+            </a>
+            <a class="list-group-item">
+              <div class="d-flex align-items-center">
+                <div class="flex-grow-1 ms-3">
+                 Jumping
+                </div>
+                <div class="flex-shrink-0">
+                  02:06
+                </div>
+              </div>
+            </a>
+            <a class="list-group-item">
+              <div class="d-flex align-items-center">
+                <div class="flex-grow-1 ms-3">
+                 Pullups
+                </div>
+                <div class="flex-shrink-0">
+                  02:30
+                </div>
+              </div>
+            </a>
+            <a class="list-group-item mb-3">
+              <div class="d-flex align-items-center">
+                <div class="flex-grow-1 ms-3">
+                 Burpee
+                </div>
+                <div class="flex-shrink-0">
+                  02:40
+                </div>
+              </div>
+            </a>
+
+            <div class="d-grid gap-2 col-auto mx-3.1">
+              <a class="btn btn-primary" href="/success" role="button">Activate </a>
+            </div>
+          </div>
+
+
+
+
+
+
+
+
+
+        </div>
+
+        <div class="tab-pane fade" id="reminder" role="tabpanel" aria-labelledby="detailreminder">
+
+          <div class="my-5 col-md-6 ms-auto">
+            <div class="input-group mb-3">
+              <input type="text" class="form-control" placeholder="name" id="input8">
+            </div>
+            <div class="input-group mb-3">
+              <input type="text" class="form-control" placeholder="phone" id="input9">
+            </div>
+            <div class="input-group mb-3">
+              <input type="text" class="form-control" placeholder="Email" id="input10">
+            </div>
+            <div class="input-group mb-3">
+              <input type="time" class="form-control" placeholder="time" id="input10">
+            </div>
+
+            <div class="list-group mb-3">
+              <li class="list-group-item">
+                <div class="form-check form-switch form-check-reverse text-start">
+                  <input class="form-check-input" type="checkbox" id="flexSwitchCheckReverse">
+                  <label class="form-check-label" for="firstCheckbox">Notification</label>
+                </div>
+                <div class="d-flex w-100 justify-content-">
+                </div>
+                <small>Allow trigger notification</small>
+
+              </li>
+            </div>
+            <div class="list-group mb-3">
+              <li class="list-group-item">
+                <div class="form-check form-switch form-check-reverse text-start">
+                  <input class="form-check-input" type="checkbox" id="flexSwitchCheckReverse">
+                  <label class="form-check-label" for="firstCheckbox">Repeat</label>
+                </div>
+                <div class="d-flex w-100 justify-content-">
+                </div>
+                <small>Allow use your GPS</small>
+
+              </li>
+            </div>
+            <div class="list-group mb-3">
+              <li class="list-group-item">
+                <div class="form-check form-switch form-check-reverse text-start">
+                  <input class="form-check-input" type="checkbox" id="flexSwitchCheckReverse">
+                  <label class="form-check-label" for="firstCheckbox">Location</label>
+                </div>
+                <div class="d-flex w-100 justify-content-">
+                </div>
+                <small>Your location will be public</small>
+
+              </li>
+            </div>
+
+            <div class="form-check form-check-inline mb-3">
+              <label class="form-check-label mx-6" for="inlineCheckbox1">L</label>
+              <br>
+              <input class="form-check-input mx-1" type="checkbox" id="inlineCheckbox1" value="option1">
+            </div>
+            <div class="form-check form-check-inline mb-3">
+              <label class="form-check-label mx-6" for="inlineCheckbox1">M</label>
+              <br>
+              <input class="form-check-input mx-1" type="checkbox" id="inlineCheckbox1" value="option1">
+            </div>
+            <div class="form-check form-check-inline mb-3">
+              <label class="form-check-label mx-6" for="inlineCheckbox1">M</label>
+              <br>
+              <input class="form-check-input mx-1" type="checkbox" id="inlineCheckbox1" value="option1">
+            </div>
+            <div class="form-check form-check-inline mb-3">
+              <label class="form-check-label mx-6" for="inlineCheckbox1">J</label>
+              <br>
+              <input class="form-check-input mx-1" type="checkbox" id="inlineCheckbox1" value="option1">
+            </div>
+            <div class="form-check form-check-inline mb-3">
+              <label class="form-check-label mx-6" for="inlineCheckbox1">V</label>
+              <br>
+              <input class="form-check-input mx-1" type="checkbox" id="inlineCheckbox1" value="option1">
+            </div>
+            <div class="form-check form-check-inline mb-3">
+              <label class="form-check-label mx-6" for="inlineCheckbox1">S</label>
+              <br>
+              <input class="form-check-input mx-1" type="checkbox" id="inlineCheckbox1" value="option1">
+            </div>
+            <div class="form-check form-check-inline mb-3">
+              <label class="form-check-label mx-6" for="inlineCheckbox1">D</label>
+              <br>
+              <input class="form-check-input mx-1" type="checkbox" id="inlineCheckbox1" value="option1">
+            </div>
+
+
+
+            <div class="d-grid gap-2 col-auto mx-3.1">
+              <a class="btn btn-primary" href="/success" role="button">Save </a>
+            </div>
+          </div>
+        </div>
+
+        <div class="tab-pane fade" id="reminderbuy" role="tabpanel" aria-labelledby="detail-reminderbuy">
+
+          <div class="my-5 col-md-6 ms-auto">
+            <div class="input-group mb-3">
+              <input type="text" class="form-control" placeholder="Title" id="input8">
+            </div>
+            <div class="input-group mb-3">
+              <input type="text" class="form-control" placeholder="Date" id="input9">
+            </div>
+            <div class="input-group mb-3">
+              <input type="time" class="form-control" placeholder="Time" id="input10">
+            </div>
+
+            <div class="list-group mb-3">
+              <li class="list-group-item">
+                <div class="form-check form-switch form-check-reverse text-start">
+                  <input class="form-check-input" type="checkbox" id="flexSwitchCheckReverse">
+                  <label class="form-check-label" for="firstCheckbox">Location</label>
+                </div>
+                <div class="d-flex w-100 justify-content-">
+                </div>
+                <small>Your profile will be public</small>
+
+              </li>
+            </div>
+            <div class="list-group mb-3">
+              <li class="list-group-item">
+                <div class="form-check form-switch form-check-reverse text-start">
+                  <input class="form-check-input" type="checkbox" id="flexSwitchCheckReverse">
+                  <label class="form-check-label" for="firstCheckbox">Alarm</label>
+                </div>
+                <div class="d-flex w-100 justify-content-">
+                </div>
+                <small>Notify me when I'm around</small>
+
+              </li>
+            </div>
+            <div class="list-group mb-3">
+              <li class="list-group-item">
+                <div class="form-check form-switch form-check-reverse text-start">
+                  <input class="form-check-input" type="checkbox" id="flexSwitchCheckReverse">
+                  <label class="form-check-label" for="firstCheckbox">Notify</label>
+                </div>
+                <div class="d-flex w-100 justify-content-">
+                </div>
+                <small>Allow trigger notification</small>
+
+              </li>
+            </div>
+
+            <div class="d-grid gap-2 col-auto mx-3.1">
+              <a class="btn btn-primary" href="/createreminderbuy" role="button">Save </a>
+            </div>
+          </div>
+
+
+
+        </div>
+
+      </div>
+
+
+    </div>
+
+  </div>
+</div>

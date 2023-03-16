@@ -3,21 +3,21 @@ import { async, ComponentFixture, TestBed } from '@angular/core/testing';
 import { By } from '@angular/platform-browser';
 import { DebugElement } from '@angular/core';
 
-import { CreateReminderBuyComponent } from './create-reminder-buy.component';
+import { SuccessrComponent } from './successr.component';
 
-describe('CreateReminderBuyComponent', () => {
-  let component: CreateReminderBuyComponent;
-  let fixture: ComponentFixture<CreateReminderBuyComponent>;
+describe('SuccessrComponent', () => {
+  let component: SuccessrComponent;
+  let fixture: ComponentFixture<SuccessrComponent>;
 
   beforeEach(async(() => {
     TestBed.configureTestingModule({
-      declarations: [ CreateReminderBuyComponent ]
+      declarations: [ SuccessrComponent ]
     })
     .compileComponents();
   }));
 
   beforeEach(() => {
-    fixture = TestBed.createComponent(CreateReminderBuyComponent);
+    fixture = TestBed.createComponent(SuccessrComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });

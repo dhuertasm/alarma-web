@@ -10,6 +10,7 @@ import {MatFormFieldModule} from '@angular/material/form-field';
 import { SigninComponent } from 'src/signin/signin.component';
 import { ActivityComponent } from 'src/activity/activity.component';
 import { CreateRoutineComponent } from 'src/create-routine/create-routine.component';
+import { SuccessrComponent } from 'src/successr/successr.component';
 
 
 
@@ -21,7 +22,8 @@ import { CreateRoutineComponent } from 'src/create-routine/create-routine.compon
       HomeComponent,
       SigninComponent,
       ActivityComponent,
-      CreateRoutineComponent
+      CreateRoutineComponent,
+      SuccessrComponent
    ],
   imports: [
     BrowserModule,
